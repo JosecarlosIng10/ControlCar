@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark"
+    tools:context=".AutomaticoBT">
+
+    <Button
+        android:id="@+id/IdInicioAutomatico"
+        android:layout_width="66dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="156dp"
+        android:background="@android:drawable/ic_media_play"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/IdPararAutomatico"
+        android:layout_width="62dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="156dp"
+        android:background="@android:drawable/checkbox_off_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/IdSalirAutomatico"
+        android:layout_width="56dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="288dp"
+        android:layout_marginTop="28dp"
+        android:background="@android:drawable/ic_delete"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="147dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="168dp"
+        android:text="OPCIONES"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
